@@ -31,7 +31,7 @@ body {
 
 header.exercise-header {
   min-height: 60px;
-  background-color:#21222c; ;
+  background-color:#21222c;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   position: fixed;
   width: 100%;
@@ -101,7 +101,15 @@ header.exercise-header {
 .exercise h3 a {
   text-decoration: none;
   color: white;
-  border-bottom: 1px solid white;
+  border-bottom: none;
+}
+
+.exercise h3 a:hover {
+  color: #cccccc;
+}
+
+.exercise h3 a:active {
+  color: #f45b5a;
 }
 
 .exercise p {

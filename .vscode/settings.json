@@ -4,5 +4,6 @@
     "excalidraw",
     "linecap",
     "Picsum"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
