@@ -132,6 +132,7 @@ html {
   background: #cccccc;
   border-radius: 60%;
   border: 1.5px solid black;
+  opacity: 50%;
 }
 
 /* Robot mouth */
@@ -299,6 +300,7 @@ html {
 }
 
 /* Robot ears */
+/* Background image attribution: Placeholder image via Lorem Picsum (https://picsum.photos/) */
 .ear.left {
   left: -31px; /* Flush with left side (width 30px + 1px border) */
   position: absolute;
@@ -307,6 +309,10 @@ html {
   width: 30px;
   height: 130px;
   background: #555555;
+  background-image: url('../assets/images/121-30x130-grayscale.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   border-radius: 8px;
   border: 1px solid #000000;
 }
@@ -322,3 +328,5 @@ html {
   border-radius: 8px;
   border: 1px solid #000000;
 }
+
+
