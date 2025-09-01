@@ -146,9 +146,32 @@ body, html {
 
 /* Robot chin */
 .robot-beard {
-
+    position: absolute;
+    bottom: -16%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-top: 50px solid #000000;
 }
 
 .robot-beard-sides {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 106px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.robot-beard-sides::before,
+.robot-beard-sides::after {
+    content: '';
+    width: 12px;
+    height: 100%;
+    background-color: #000000;
 }
