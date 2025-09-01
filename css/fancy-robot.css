@@ -1,38 +1,88 @@
+@import url('./color-palette.css');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background: #363B40;
+    display: flex;
+
+}
+
+/* Robot container */
 .robot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}   
+
+/* Robot body */
+.robot-body {
+    position: relative;
+    width: 320px;  /* Responsive sized with max width */
+    aspect-ratio: 1 / 1;
+    background: #555555; /* Main face color */
+    border-radius: 20px 20px 30px 30px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    border-color: #000000;
+    background-color: #555555;
+    border-width: 1px;
+    border-style: solid; */
 }
 
-.robot-face-shape {
-}
-
+/* Robot eyes */
 .robot-eye-left {
+    /* width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    border-color: #000000; */
 }
 
 .robot-eye-right {
+/*     width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    border-color: #000000;
+} */
 }
 
-.robot-ear-left {
+/* Robot eye irises */
+.robot-eye-iris-left {
+/*         width: 30px;
+        height: 60px;
+        background-color: #296735;
+        border-color: #000000;
+        */
 }
 
-.robot-ear-right {
+.robot-eye-iris-right {
+/*     width: 30px;
+    height: 60px;
+    background-color: #840604;
+    border-color: #000000; */
 }
 
+/* Robot nose */
 .robot-nose {
+    background-color: #747474;
+    border-color: #000000;
 }
 
-.robot-teeth {
+/* Robot nostrils */
+.robot-nostrils {
+    background-color: #CCCCCC;
+    border-color: #000000;
 }
 
-.robot-tooth {
-}
-
-.robot-hair-style {
-}
-
-.robot-hair-one {
-}
-
-.robot-hair-two {
-}
-
-.robot-hair-three {
+/* Robot mouth */
+.robot-mouth {
+    background-color: #cdab00;
+    border-color: #000000;
 }

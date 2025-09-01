@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  min-height: 100vh;
 }
 
 .content-container {
@@ -23,8 +24,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  max-width: 70%;
+  max-width: 90%;
   margin: 0 auto;
+  padding: 20px;
 }
 
 header.exercise-header {
@@ -39,11 +41,12 @@ header.exercise-header {
 }
 
 .top-nav {
-  width: 900px;
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;
   display: flex;
   height: 100%;
+  padding: 0 20px;
 }
 
 .top-nav ul {
@@ -52,6 +55,7 @@ header.exercise-header {
   gap: 30px;
   height: 100%;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .top-nav a {
@@ -62,6 +66,7 @@ header.exercise-header {
   text-decoration: none;
   display: flex;
   gap: 12px;
+  white-space: nowrap;
 }
 
 .top-nav a:hover {
@@ -100,4 +105,52 @@ header.exercise-header {
 
 .exercise p {
   line-height: 24px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .content-container {
+    max-width: 95%;
+    padding: 10px;
+    gap: 20px;
+  }
+  
+  .top-nav {
+    padding: 0 10px;
+  }
+  
+  .top-nav ul {
+    gap: 15px;
+  }
+  
+  .top-nav a {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+  
+  .exercise {
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-container {
+    max-width: 100%;
+    padding: 5px;
+  }
+  
+  .top-nav ul {
+    gap: 10px;
+  }
+  
+  .top-nav a {
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+  
+  .exercise {
+    padding: 15px;
+    border-radius: 15px;
+  }
 }
