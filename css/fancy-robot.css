@@ -74,8 +74,8 @@ html {
 /* Robot eye irises */
 .robot-eye-iris-left {
   position: absolute;
-  width: 35px;
-  height: 35px;
+  width: 2.2em; /* Using relative units based on font size */
+  height: 2.2em;
   background-color: #296735;
   border: 1px solid #000000;
   border-radius: 50%;
