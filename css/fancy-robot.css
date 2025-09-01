@@ -72,25 +72,28 @@ body, html {
 
 /* Robot eye irises */
 .robot-eye-iris-left {
-/*     position: absolute;
+    position: absolute;
     width: 30px;
-    height: 60px;
+    height: 35px;
     background-color: #296735;
     border: 1px solid #000000;
+    border-radius: 30% / 50%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
 }
 
 .robot-eye-iris-right {
-/*     position: absolute;
+
+    position: absolute;
     width: 30px;
-    height: 60px;
+    height: 35px;
     background-color: #840604;
     border: 1px solid #000000;
+    border-radius: 30% / 50%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
 }
 
 
