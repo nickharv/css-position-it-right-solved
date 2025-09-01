@@ -85,15 +85,15 @@ html {
 }
 
 .robot-eye-iris-right {
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    background-color: #840604;
-    border: 1px solid #000000;
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-color: #840604;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Robot nose */
@@ -139,10 +139,18 @@ html {
   left: 50%;
   width: 100px;
   height: 45px;
-  background: #CAC531;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(left, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(90deg, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #cac531; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    left,
+    #f3f9a7,
+    #cac531
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    90deg,
+    #f3f9a7,
+    #cac531
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   border: 3px solid #000000;
   border-radius: 50% / 50%;
   transform: translateX(-50%);
@@ -309,7 +317,7 @@ html {
   width: 30px;
   height: 130px;
   background: #555555;
-  background-image: url('../assets/images/121-30x130-grayscale.jpg');
+  background-image: url("../assets/images/121-30x130-grayscale.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -328,5 +336,3 @@ html {
   border-radius: 8px;
   border: 1px solid #000000;
 }
-
-

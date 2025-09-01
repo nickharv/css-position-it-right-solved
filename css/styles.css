@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  background-color: #363B40;
+  background-color: #363b40;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -31,7 +31,7 @@ body {
 
 header.exercise-header {
   min-height: 60px;
-  background-color:#21222c;
+  background-color: #21222c;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   position: fixed;
   width: 100%;
@@ -79,7 +79,7 @@ header.exercise-header {
 }
 
 .top-nav .back-button a:before {
-  content: '\2190';
+  content: "\2190";
 }
 
 .top-nav .back-button a:hover {
@@ -123,20 +123,20 @@ header.exercise-header {
     padding: 10px;
     gap: 20px;
   }
-  
+
   .top-nav {
     padding: 0 10px;
   }
-  
+
   .top-nav ul {
     gap: 15px;
   }
-  
+
   .top-nav a {
     padding: 4px 8px;
     font-size: 14px;
   }
-  
+
   .exercise {
     padding: 20px;
     border-radius: 20px;
@@ -148,16 +148,16 @@ header.exercise-header {
     max-width: 100%;
     padding: 5px;
   }
-  
+
   .top-nav ul {
     gap: 10px;
   }
-  
+
   .top-nav a {
     padding: 3px 6px;
     font-size: 12px;
   }
-  
+
   .exercise {
     padding: 15px;
     border-radius: 15px;
