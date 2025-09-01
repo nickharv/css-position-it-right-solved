@@ -11,6 +11,8 @@
 .CSSPositionItRightSolved_Project-10-hex { color: #555555; }
 .CSSPositionItRightSolved_Project-11-hex { color: #21222c; }
 .CSSPositionItRightSolved_Project-12-hex { color: #363B40; }
+.CSSPositionItRightSolved_Project-13-hex { color: #363e55; }
+.CSSPositionItRightSolved_Project-14-hex { color: #868a9a; }
 
 /* Color Theme Swatches in RGBA */
 .CSSPositionItRightSolved_Project-1-rgba { color: rgba(0, 0, 0, 1); }
@@ -25,6 +27,8 @@
 .CSSPositionItRightSolved_Project-10-rgba { color: rgba(85, 85, 85, 1); }
 .CSSPositionItRightSolved_Project-11-rgba { color: rgba(33, 34, 44, 1); }
 .CSSPositionItRightSolved_Project-12-rgba { color: rgba(54, 59, 64, 1); }
+.CSSPositionItRightSolved_Project-13-rgba { color: rgba(54, 62, 85, 1); }
+.CSSPositionItRightSolved_Project-14-rgba { color: rgba(134, 138, 154, 1); }
 
 
 /* Color Theme Swatches in HSLA */
@@ -40,3 +44,5 @@
 .CSSPositionItRightSolved_Project-10-hsla { color: hsla(0, 0, 33, 1); }
 .CSSPositionItRightSolved_Project-11-hsla { color: hsla(218, 5, 17, 1); }
 .CSSPositionItRightSolved_Project-12-hsla { color: hsla(201, 11, 21, 1); }
+.CSSPositionItRightSolved_Project-13-hsla { color: hsla(218, 15, 26, 1); }
+.CSSPositionItRightSolved_Project-14-hsla { color: hsla(210, 10, 55, 1); }
