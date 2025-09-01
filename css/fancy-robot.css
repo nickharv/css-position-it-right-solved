@@ -223,3 +223,39 @@ body, html {
     height: 100%;
     background-color: #000000;
 }
+
+.eyebrow {
+    position: absolute;
+    top: -30px;
+    width: 90px;
+    height: 20px;
+    background: #000000;
+    border-radius: 4px;
+}
+
+.eyebrow.left {
+    transform: rotate(15deg);
+    left: 0;
+}
+    .eyebrow.right {
+    transform: rotate(-15deg);
+    right: 0;
+}
+
+/* Lines on right eyebrow */
+.eyebrow.right .line {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background: #555555;
+}
+.eyebrow.right .line:nth-child(1) {
+    left: 48px;
+}
+.eyebrow.right .line:nth-child(2) {
+    left: 59px;
+}
+.eyebrow.right .line:nth-child(3) {
+    left: 70px;
+}
