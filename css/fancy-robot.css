@@ -25,7 +25,7 @@ html {
   width: min(320px, 80vw); /* Responsive: 320px max, 80% of viewport width */
   aspect-ratio: 1 / 1;
   background: #555555; /* Main face color */
-  border-radius: 20px 20px 30px 30px;
+  border-radius: 20px;
   box-sizing: border-box;
   border-color: #000000;
   border-width: 2px;
@@ -54,7 +54,7 @@ html {
   top: -50%;
   left: 0;
   background: #ffffff;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   border-radius: 50% / 60%;
   overflow: visible;
 }
@@ -66,7 +66,7 @@ html {
   top: -50%;
   right: 0;
   background: #ffffff;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   border-radius: 50% / 60%;
   overflow: visible;
 }
@@ -74,11 +74,11 @@ html {
 /* Robot eye irises */
 .robot-eye-iris-left {
   position: absolute;
-  width: 30px;
+  width: 35px;
   height: 35px;
   background-color: #296735;
   border: 1px solid #000000;
-  border-radius: 30% / 50%;
+  border-radius: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -86,11 +86,11 @@ html {
 
 .robot-eye-iris-right {
   position: absolute;
-  width: 30px;
+  width: 35px;
   height: 35px;
   background-color: #840604;
   border: 1px solid #000000;
-  border-radius: 30% / 50%;
+  border-radius: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -293,4 +293,29 @@ html {
   background: #296735;
   border: 2px solid black;
   margin-top: 20px;
+}
+
+/* Robot ears */
+.ear.left {
+  left: -31px; /* Flush with left side (width 30px + 1px border) */
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 130px;
+  background: #555555;
+  border-radius: 8px;
+  border: 1px solid #000000;
+}
+
+.ear.right {
+  right: -31px; /* Flush with right side (width 30px + 1px border) */
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 130px;
+  background: #555555;
+  border-radius: 8px;
+  border: 1px solid #000000;
 }
