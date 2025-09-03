@@ -140,8 +140,15 @@ footer {
     padding: 0 50px;
   }
   
+
+  .section-label {
+    top: 180px;
+  }
+
   .document-content {
     max-width: 700px;
+    gap: 40px;
+    padding-top: .275em;
   }
 }
 
@@ -151,6 +158,16 @@ footer {
   section,
   .footer-content {
     max-width: 900px;
+  }
+
+  .section-label {
+    top: 180px;
+  }
+
+  .document-content {
+    max-width: 700px;
+    gap: 40px;
+    padding-top: .275em;
   }
 }
 
