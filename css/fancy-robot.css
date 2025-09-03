@@ -8,7 +8,6 @@ html {
   display: flex;
 }
 
-/* Robot container */
 .robot-container {
   display: flex;
   justify-content: center;
@@ -17,24 +16,23 @@ html {
   width: 100vw;
   position: relative;
   overflow: hidden;
+  padding-top: 60px;
 }
 
-/* Robot body */
 .robot-body {
   position: relative;
-  width: min(320px, 80vw); /* Responsive: 320px max, 80% of viewport width */
+  width: min(320px, 80vw);
   aspect-ratio: 1 / 1;
-  background: #555555; /* Main face color */
+  background: #555555;
   border-radius: 20px;
   box-sizing: border-box;
   border-color: #000000;
   border-width: 2px;
   border-style: solid;
-  /* Center the robot body */
+
   margin: auto;
 }
 
-/* Robot eyes */
 .robot-eyes-container {
   position: absolute;
   width: 75%;
@@ -71,10 +69,9 @@ html {
   overflow: visible;
 }
 
-/* Robot eye irises */
 .robot-eye-iris-left {
   position: absolute;
-  width: 2.2em; /* Using relative units based on font size */
+  width: 2.2em;
   height: 2.2em;
   background-color: #296735;
   border: 1px solid #000000;
@@ -85,18 +82,17 @@ html {
 }
 
 .robot-eye-iris-right {
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    background-color: #840604;
-    border: 1px solid #000000;
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-color: #840604;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-/* Robot nose */
 .robot-nose {
   position: absolute;
   top: 50%;
@@ -113,7 +109,6 @@ html {
   gap: 15px;
 }
 
-/* Robot nostrils */
 .robot-nostril-left {
   width: 28px;
   height: 15px;
@@ -132,30 +127,28 @@ html {
   opacity: 50%;
 }
 
-/* Robot mouth */
 .robot-mouth {
   position: absolute;
   top: 67%;
   left: 50%;
   width: 100px;
   height: 45px;
-  background: #CAC531;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(left, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(90deg, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #cac531;
+  background: -webkit-linear-gradient(left, #f3f9a7, #cac531);
+  background: linear-gradient(90deg, #f3f9a7, #cac531);
   border: 3px solid #000000;
   border-radius: 50% / 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
 }
 
-/* Mouth grid lines horizontal and vertical */
 .robot-mouth::before,
 .robot-mouth::after {
   content: "";
   position: absolute;
   background: #000000;
 }
-/* Horizontal line in middle */
+
 .robot-mouth::before {
   width: 100%;
   height: 2px;
@@ -164,7 +157,6 @@ html {
   transform: translateY(-50%);
 }
 
-/* Vertical grid lines */
 .robot-mouth > .robot-teeth {
   position: absolute;
   width: 2px;
@@ -187,7 +179,6 @@ html {
   height: 90%;
 }
 
-/* Robot chin */
 .robot-beard {
   position: absolute;
   bottom: -16%;
@@ -237,7 +228,6 @@ html {
   right: 0;
 }
 
-/* Lines on right eyebrow */
 .eyebrow.right .line {
   position: absolute;
   top: 0;
@@ -255,8 +245,6 @@ html {
   left: 70px;
 }
 
-/* Robot antenna */
-/* Antenna blocks on top right */
 .antenna {
   position: absolute;
   top: -60px;
@@ -269,10 +257,10 @@ html {
 }
 .antenna .black {
   width: 150px;
-  height: 60px; /* Match the negative offset so bottom is flush */
+  height: 60px;
   background: #000000;
   border: 2px solid black;
-  border-bottom: 0; /* Avoid double border at seam */
+  border-bottom: 0;
   border-radius: 15px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -298,17 +286,15 @@ html {
   margin-top: 20px;
 }
 
-/* Robot ears */
-/* Background image attribution: Placeholder image via Lorem Picsum (https://picsum.photos/) */
 .ear.left {
-  left: -31px; /* Flush with left side (width 30px + 1px border) */
+  left: -31px;
   position: absolute;
   top: 40%;
   transform: translateY(-50%);
   width: 30px;
   height: 130px;
   background: #555555;
-  background-image: url('../assets/images/121-30x130-grayscale.jpg');
+  background-image: url("../assets/images/121-30x130-grayscale.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -317,7 +303,7 @@ html {
 }
 
 .ear.right {
-  right: -31px; /* Flush with right side (width 30px + 1px border) */
+  right: -31px;
   position: absolute;
   top: 40%;
   transform: translateY(-50%);
@@ -328,4 +314,15 @@ html {
   border: 1px solid #000000;
 }
 
+/* Responsive adjustments for header positioning */
+@media (max-width: 768px) {
+  .robot-container {
+    padding-top: 50px;
+  }
+}
 
+@media (max-width: 480px) {
+  .robot-container {
+    padding-top: 45px;
+  }
+}

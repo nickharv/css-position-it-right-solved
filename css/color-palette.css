@@ -1,48 +1,131 @@
 /* Color Theme Swatches in Hex */
-.CSSPositionItRightSolved_Project-1-hex { color: #000000; }
-.CSSPositionItRightSolved_Project-2-hex { color: #840604; }
-.CSSPositionItRightSolved_Project-3-hex { color: #296735; }
-.CSSPositionItRightSolved_Project-4-hex { color: #747474; }
-.CSSPositionItRightSolved_Project-5-hex { color: #CDAB00; }
-.CSSPositionItRightSolved_Project-6-hex { color: #FFFFFF; }
-.CSSPositionItRightSolved_Project-7-hex { color: #E4C739; }
-.CSSPositionItRightSolved_Project-8-hex { color: #CCCCCC; }
-.CSSPositionItRightSolved_Project-9-hex { color: #8ca2c7; }
-.CSSPositionItRightSolved_Project-10-hex { color: #555555; }
-.CSSPositionItRightSolved_Project-11-hex { color: #21222c; }
-.CSSPositionItRightSolved_Project-12-hex { color: #363B40; }
-.CSSPositionItRightSolved_Project-13-hex { color: #363e55; }
-.CSSPositionItRightSolved_Project-14-hex { color: #868a9a; }
+.CSSPositionItRightSolved_Project-1-hex {
+  color: #000000;
+}
+.CSSPositionItRightSolved_Project-2-hex {
+  color: #840604;
+}
+.CSSPositionItRightSolved_Project-3-hex {
+  color: #296735;
+}
+.CSSPositionItRightSolved_Project-4-hex {
+  color: #747474;
+}
+.CSSPositionItRightSolved_Project-5-hex {
+  color: #cdab00;
+}
+.CSSPositionItRightSolved_Project-6-hex {
+  color: #ffffff;
+}
+.CSSPositionItRightSolved_Project-7-hex {
+  color: #e4c739;
+}
+.CSSPositionItRightSolved_Project-8-hex {
+  color: #cccccc;
+}
+.CSSPositionItRightSolved_Project-9-hex {
+  color: #8ca2c7;
+}
+.CSSPositionItRightSolved_Project-10-hex {
+  color: #555555;
+}
+.CSSPositionItRightSolved_Project-11-hex {
+  color: #21222c;
+}
+.CSSPositionItRightSolved_Project-12-hex {
+  color: #363b40;
+}
+.CSSPositionItRightSolved_Project-13-hex {
+  color: #363e55;
+}
+.CSSPositionItRightSolved_Project-14-hex {
+  color: #868a9a;
+}
 
 /* Color Theme Swatches in RGBA */
-.CSSPositionItRightSolved_Project-1-rgba { color: rgba(0, 0, 0, 1); }
-.CSSPositionItRightSolved_Project-2-rgba { color: rgba(132, 6, 4, 1); }
-.CSSPositionItRightSolved_Project-3-rgba { color: rgba(41, 103, 53, 1); }
-.CSSPositionItRightSolved_Project-4-rgba { color: rgba(116, 116, 116, 1); }
-.CSSPositionItRightSolved_Project-5-rgba { color: rgba(205, 171, 0, 1); }
-.CSSPositionItRightSolved_Project-6-rgba { color: rgba(255, 255, 255, 1); }
-.CSSPositionItRightSolved_Project-7-rgba { color: rgba(228, 199, 57, 1); }
-.CSSPositionItRightSolved_Project-8-rgba { color: rgba(204, 204, 204, 1); }
-.CSSPositionItRightSolved_Project-9-rgba { color: rgba(244, 91, 90, 1); }
-.CSSPositionItRightSolved_Project-10-rgba { color: rgba(85, 85, 85, 1); }
-.CSSPositionItRightSolved_Project-11-rgba { color: rgba(33, 34, 44, 1); }
-.CSSPositionItRightSolved_Project-12-rgba { color: rgba(54, 59, 64, 1); }
-.CSSPositionItRightSolved_Project-13-rgba { color: rgba(54, 62, 85, 1); }
-.CSSPositionItRightSolved_Project-14-rgba { color: rgba(134, 138, 154, 1); }
-
+.CSSPositionItRightSolved_Project-1-rgba {
+  color: rgba(0, 0, 0, 1);
+}
+.CSSPositionItRightSolved_Project-2-rgba {
+  color: rgba(132, 6, 4, 1);
+}
+.CSSPositionItRightSolved_Project-3-rgba {
+  color: rgba(41, 103, 53, 1);
+}
+.CSSPositionItRightSolved_Project-4-rgba {
+  color: rgba(116, 116, 116, 1);
+}
+.CSSPositionItRightSolved_Project-5-rgba {
+  color: rgba(205, 171, 0, 1);
+}
+.CSSPositionItRightSolved_Project-6-rgba {
+  color: rgba(255, 255, 255, 1);
+}
+.CSSPositionItRightSolved_Project-7-rgba {
+  color: rgba(228, 199, 57, 1);
+}
+.CSSPositionItRightSolved_Project-8-rgba {
+  color: rgba(204, 204, 204, 1);
+}
+.CSSPositionItRightSolved_Project-9-rgba {
+  color: rgba(244, 91, 90, 1);
+}
+.CSSPositionItRightSolved_Project-10-rgba {
+  color: rgba(85, 85, 85, 1);
+}
+.CSSPositionItRightSolved_Project-11-rgba {
+  color: rgba(33, 34, 44, 1);
+}
+.CSSPositionItRightSolved_Project-12-rgba {
+  color: rgba(54, 59, 64, 1);
+}
+.CSSPositionItRightSolved_Project-13-rgba {
+  color: rgba(54, 62, 85, 1);
+}
+.CSSPositionItRightSolved_Project-14-rgba {
+  color: rgba(134, 138, 154, 1);
+}
 
 /* Color Theme Swatches in HSLA */
-.CSSPositionItRightSolved_Project-1-hsla { color: hsla(0, 0, 0, 1); }
-.CSSPositionItRightSolved_Project-2-hsla { color: hsla(0, 94, 26, 1); }
-.CSSPositionItRightSolved_Project-3-hsla { color: hsla(131, 43, 28, 1); }
-.CSSPositionItRightSolved_Project-4-hsla { color: hsla(0, 0, 45, 1); }
-.CSSPositionItRightSolved_Project-5-hsla { color: hsla(50, 100, 40, 1); }
-.CSSPositionItRightSolved_Project-6-hsla { color: hsla(0, 0, 100, 1); }
-.CSSPositionItRightSolved_Project-7-hsla { color: hsla(49, 76, 55, 1); }
-.CSSPositionItRightSolved_Project-8-hsla { color: hsla(0, 0, 80, 1); }
-.CSSPositionItRightSolved_Project-9-hsla { color: hsla(0, 87, 65, 1); }
-.CSSPositionItRightSolved_Project-10-hsla { color: hsla(0, 0, 33, 1); }
-.CSSPositionItRightSolved_Project-11-hsla { color: hsla(218, 5, 17, 1); }
-.CSSPositionItRightSolved_Project-12-hsla { color: hsla(201, 11, 21, 1); }
-.CSSPositionItRightSolved_Project-13-hsla { color: hsla(218, 15, 26, 1); }
-.CSSPositionItRightSolved_Project-14-hsla { color: hsla(210, 10, 55, 1); }
+.CSSPositionItRightSolved_Project-1-hsla {
+  color: hsla(0, 0, 0, 1);
+}
+.CSSPositionItRightSolved_Project-2-hsla {
+  color: hsla(0, 94, 26, 1);
+}
+.CSSPositionItRightSolved_Project-3-hsla {
+  color: hsla(131, 43, 28, 1);
+}
+.CSSPositionItRightSolved_Project-4-hsla {
+  color: hsla(0, 0, 45, 1);
+}
+.CSSPositionItRightSolved_Project-5-hsla {
+  color: hsla(50, 100, 40, 1);
+}
+.CSSPositionItRightSolved_Project-6-hsla {
+  color: hsla(0, 0, 100, 1);
+}
+.CSSPositionItRightSolved_Project-7-hsla {
+  color: hsla(49, 76, 55, 1);
+}
+.CSSPositionItRightSolved_Project-8-hsla {
+  color: hsla(0, 0, 80, 1);
+}
+.CSSPositionItRightSolved_Project-9-hsla {
+  color: hsla(0, 87, 65, 1);
+}
+.CSSPositionItRightSolved_Project-10-hsla {
+  color: hsla(0, 0, 33, 1);
+}
+.CSSPositionItRightSolved_Project-11-hsla {
+  color: hsla(218, 5, 17, 1);
+}
+.CSSPositionItRightSolved_Project-12-hsla {
+  color: hsla(201, 11, 21, 1);
+}
+.CSSPositionItRightSolved_Project-13-hsla {
+  color: hsla(218, 15, 26, 1);
+}
+.CSSPositionItRightSolved_Project-14-hsla {
+  color: hsla(210, 10, 55, 1);
+}
